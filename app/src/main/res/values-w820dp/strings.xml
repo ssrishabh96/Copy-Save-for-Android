@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="default_username">Awesome</string>
+    <string name="username_key">username</string>
+    <string name="notification_tone_key">tone</string>
+</resources>

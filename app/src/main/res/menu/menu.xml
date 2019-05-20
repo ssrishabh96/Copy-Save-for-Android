@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_search"
+        android:orderInCategory="5"
+        android:title="Search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item android:title="Settings" android:id="@+id/settings" />
+
+    <item android:title="Share this application" android:id="@+id/shareApp" />
+
+    <item android:title="Rate On Play Store" android:id="@+id/rateOnPlayStore" />
+
+    <item android:title="Show Intro" android:id="@+id/show_intro" />
+
+    <item android:title="About" android:id="@+id/about_US" />
+
+    <item android:title="Exit" android:id="@+id/exit" />
+
+</menu>

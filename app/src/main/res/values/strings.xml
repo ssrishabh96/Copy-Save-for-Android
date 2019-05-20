@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Copy, Save</string>
+
+    <string name="myadID">ca-app-pub-9816038748687358~4577598021</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="default_username">User</string>
+    <string name="username_key">username</string>
+    <string name="notification_tone_key">tone</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="delete">DELETE</string>
+    <string name="app_desc">The app stores everything you copy. Just copy some text and the app saves it automatically for you. With a growing userbase we are working hard everyday to make it even better for a seamless user experience. </string>
+
+
+</resources>

@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <TextView
+            android:id="@+id/appTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            android:visibility="visible" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <dynamic.movies.rishabh.sliderwelcome.customviews.MyRecyclerView
+        android:id="@+id/my_recycler_view_fragA"
+        android:layout_below="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp" />
+
+    <LinearLayout
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar2"
+        android:layout_alignLeft="@+id/my_recycler_view_fragA"
+        android:layout_alignStart="@+id/my_recycler_view_fragA">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="6dp"
+            android:elevation="6dp"
+            android:padding="4dp"
+            android:src="@mipmap/oops" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:gravity="center"
+            android:text="Nothing is copied yet, no data found."
+            android:textStyle="normal|bold|italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Here you get the list of data items you copy."
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</RelativeLayout>

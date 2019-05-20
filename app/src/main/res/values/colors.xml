@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#ff4081</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen2">#78909C</color>
+    <color name="bg_screen3">#607D8B</color>
+
+
+    <color name="bg_row_background">#fa315b</color>
+
+
+</resources>
